@@ -1,0 +1,138 @@
+body {
+    background-image: url(background.jpg);
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+nav {
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    color: blue;
+
+}
+nav .title{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+}
+nav .title:hover{
+    color:var(--nav );
+}
+.menu {
+    position: relative;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: var(--nav --background-color);
+    max-width: 1200px;
+
+}
+
+.navlist {
+    display: flex;
+    text-align: justify;
+
+}
+
+.list {
+    position: relative;
+    margin: 25px;
+    list-style: none;
+   
+
+}
+.list a{
+    text-decoration: none;
+    font-weight: bold;
+    color: azure;
+}
+.list a:hover{
+    color: orangered;
+}
+section {
+    display: flex;
+    display: relative;
+    align-content: center;
+    justify-content: space-between;
+    position:relative;    
+    color: azure;
+    margin-top: 100px;
+}
+
+
+.signin {
+    margin: auto;
+    background: transparent;
+    border-radius: 10px;
+    border-style: groove;
+    width: fit-content;
+    text-align: center;
+    padding: 50px;
+
+
+}
+
+.signup{
+    margin: auto;
+    background: transparent;
+    border-radius: 10px;
+    border-style: groove;
+    width: fit-content;
+    text-align: center;
+    padding:50px;
+}
+.login{
+    text-decoration: none;
+    color: rgb(0, 195, 255);
+
+}
+.login:hover{
+    text-decoration: underline;
+}
+.register{
+    text-decoration: none;
+    color: rgb(0, 195, 255);
+}
+.register:hover{
+    text-decoration: underline;
+}
+.forgotpass{
+    text-decoration: none;
+    color: rgb(0, 195, 255);
+}
+.forgotpass:hover{
+    text-decoration: underline;
+}
+
+.inputbox {
+    padding: 5px;
+    margin: 7px;
+    border-radius: 3px;
+    
+      
+}
+.inputbox:hover{
+    padding-right:5px;
+}
+
+
+.button{
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+    width: 50%;
+}
+.button:hover{
+    background-color: darkgrey;    
+    padding-right: 7px;
+}
